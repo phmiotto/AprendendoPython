@@ -1,0 +1,5 @@
+vel=float(input("Qual a velocidade do carro?: "))
+if vel>80:
+    print("Você foi multado por exceder o limite permitido que é de 80km/h")
+    multa=(vel-80)*7
+    print(f"Sua multa será de R${multa}")
