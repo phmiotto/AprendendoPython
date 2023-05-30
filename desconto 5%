@@ -1,0 +1,3 @@
+p=float(input("Qual o preço do produto?: "))
+desc=p-(p*0.05)
+print(f"O preço do produto é de R${p}, e com 5% de desconto fica R${desc}")
