@@ -1,0 +1,5 @@
+#antecessor e sucessor
+n1=int(input("Digite um número: "))
+ante=n1-1
+suce=n1+1
+print(f"O valor digitado foi {n1}, o seu antecessor é {ante}, e o seu sucessor é {suce}")
