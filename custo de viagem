@@ -1,0 +1,7 @@
+dist=int(input("Sua viagem será de quantos km?: "))
+if dist<=200:
+    p=dist*0.50
+    print(f"O valor da sua passagem será de R${p}")
+elif dist>200:
+    p=dist*0.45
+    print(f"O valor da sua pasagem será de R${p}")
