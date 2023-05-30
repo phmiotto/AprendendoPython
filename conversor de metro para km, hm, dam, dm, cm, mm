@@ -1,0 +1,13 @@
+n=float(input("Digite uma medida em metros: "))
+km=n/1000
+print(f"{n}m em km são {km}km")
+hm=n/100
+print(f"{n}m em hm são {hm}hm")
+dam=n/10
+print(f"{n}m em dam são {dam}dam")
+dm=n*10
+print(f"{n}m em dm são {dm}dm")
+cm=n*100
+print(f"{n}m em cm são {cm}cm")
+mm=n*1000
+print(f"{n}m em mm são {mm}mm")
