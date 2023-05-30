@@ -1,0 +1,4 @@
+qd=int(input("Por quantos dias este veículo foi utilizado?: "))
+km=float(input("Quantos km rodados?: "))
+preco=(60*qd)+(km*0.15)
+print(f"O aluguel deste veículo custará R$: {preco}")
